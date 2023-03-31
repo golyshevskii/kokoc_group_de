@@ -25,5 +25,5 @@ DWH_PASSWORD = 'пароль для подключения к БД'
 ```
 6. Запустите скрипт python через терминал
 ```
-python etl_near_earth_objects.py
+python etl_near_earth_objects.py >> etl_log.log
 ```
