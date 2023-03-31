@@ -1,0 +1,17 @@
+etl_near_earth_objects.py > START -> 2023-03-31 12:03:39.455915
+get_near_earth_objects: START -> 2023-03-31 12:03:39.455921
+get_near_earth_objects: END -> 2023-03-31 12:03:41.625545
+data_transformation: START -> 2023-03-31 12:03:41.625578
+data_transformation: END -> 2023-03-31 12:03:41.634241
+get_metrics: START -> 2023-03-31 12:03:41.634260
+get_metrics: END -> 2023-03-31 12:03:41.639446
+potentially_hazardous_count: 1
+name_with_max_estimated_diam: 22771 (1999 CU3)
+min_collision_hours: 5.28891865239554
+create_asteroids: START -> 2023-03-31 12:03:41.639466
+create_asteroids: END -> 2023-03-31 12:03:42.547868
+insert_data: START -> 2023-03-31 12:03:42.547958
+insert_data: END -> 2023-03-31 12:03:43.850773
+select_data: START -> 2023-03-31 12:03:43.850844
+select_data: END -> 2023-03-31 12:03:44.550333
+etl_near_earth_objects.py > END -> 2023-03-31 12:03:44.550370
