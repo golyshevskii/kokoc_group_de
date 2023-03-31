@@ -21,8 +21,8 @@ pip install -r requirements.txt
 ```
 NASA_API = 'токен подключения к API'
 DWH_PASSWORD = 'пароль для подключения к БД'
+# также в переменной* conn в теле функци dwh_connection укажите данные для подключения к вашей БД
 ```
-*также в переменной* **conn** *в теле функци* `dwh_connection` *укажите данные для подключения к вашей БД*
 6. Запустите скрипт python через терминал
 ```
 python etl_near_earth_objects.py
