@@ -132,6 +132,7 @@ def create_asteroids():
 
 
 def insert_data(df: pd.DataFrame):
+    """Функция вставки данных в таблицу asteroids"""
     print(f'insert_data: START -> {datetime.now()}')
     try:
         sql = """
@@ -171,6 +172,7 @@ def insert_data(df: pd.DataFrame):
 
 
 def select_data(start_dt: datetime, end_dt: datetime, mdkm_from, mdkm_to):
+    """Функция извлечения данных из таблицы asteroids"""
     print(f'select_data: START -> {datetime.now()}')
     try:
         sql = """
